@@ -97,7 +97,7 @@
                                                 <option value="" disabled selected>Sélectionner un plat</option>
                                                 <option th:each="pla : ${plats}"
                                                         th:value="${pla.id}"
-                                                        th:text="${pla.name + ' ' + pla.summary}">
+                                                        th:text="${pla.name}">
                                                 </option>
                                             </select>
                                         </div>
