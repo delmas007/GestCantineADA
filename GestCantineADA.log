@@ -3999,3 +3999,62 @@ java.lang.IllegalArgumentException: Cannot get list size of null
 2024-09-05T17:27:31.187Z  INFO 6328 --- [GestCantineADA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2024-09-05T17:27:31.194Z  INFO 6328 --- [GestCantineADA] [restartedMain] c.d.g.GestCantineAdaApplication          : Started GestCantineAdaApplication in 0.671 seconds (process running for 586.718)
 2024-09-05T17:27:31.195Z  INFO 6328 --- [GestCantineADA] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-05T17:43:00.543Z  INFO 6328 --- [GestCantineADA] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-05T17:43:00.544Z  INFO 6328 --- [GestCantineADA] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-09-05T17:43:00.548Z  INFO 6328 --- [GestCantineADA] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-09-05T17:43:03.066Z  INFO 10584 --- [GestCantineADA] [restartedMain] c.d.g.GestCantineAdaApplication          : Starting GestCantineAdaApplication using Java 22.0.1 with PID 10584 (C:\Users\angam\Desktop\Atos\GestCantineADA\target\classes started by angam in C:\Users\angam\Desktop\Atos\GestCantineADA)
+2024-09-05T17:43:03.069Z  INFO 10584 --- [GestCantineADA] [restartedMain] c.d.g.GestCantineAdaApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-09-05T17:43:03.130Z  INFO 10584 --- [GestCantineADA] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-05T17:43:03.131Z  INFO 10584 --- [GestCantineADA] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-05T17:43:03.905Z  INFO 10584 --- [GestCantineADA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-05T17:43:03.979Z  INFO 10584 --- [GestCantineADA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+2024-09-05T17:43:04.542Z  INFO 10584 --- [GestCantineADA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-05T17:43:04.558Z  INFO 10584 --- [GestCantineADA] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-05T17:43:04.559Z  INFO 10584 --- [GestCantineADA] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-05T17:43:04.603Z  INFO 10584 --- [GestCantineADA] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-05T17:43:04.603Z  INFO 10584 --- [GestCantineADA] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1471 ms
+2024-09-05T17:43:04.739Z  INFO 10584 --- [GestCantineADA] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-05T17:43:04.794Z  INFO 10584 --- [GestCantineADA] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-05T17:43:04.826Z  INFO 10584 --- [GestCantineADA] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-05T17:43:05.132Z  INFO 10584 --- [GestCantineADA] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-05T17:43:05.156Z  INFO 10584 --- [GestCantineADA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-05T17:43:05.450Z  INFO 10584 --- [GestCantineADA] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3459234
+2024-09-05T17:43:05.452Z  INFO 10584 --- [GestCantineADA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-05T17:43:05.496Z  WARN 10584 --- [GestCantineADA] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-05T17:43:06.409Z  INFO 10584 --- [GestCantineADA] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-05T17:43:06.474Z  INFO 10584 --- [GestCantineADA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-05T17:43:06.767Z  WARN 10584 --- [GestCantineADA] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-05T17:43:07.159Z  INFO 10584 --- [GestCantineADA] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-05T17:43:07.196Z  INFO 10584 --- [GestCantineADA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-05T17:43:07.203Z  INFO 10584 --- [GestCantineADA] [restartedMain] c.d.g.GestCantineAdaApplication          : Started GestCantineAdaApplication in 4.707 seconds (process running for 5.678)
+2024-09-05T17:43:07.958Z  INFO 10584 --- [GestCantineADA] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-05T17:43:07.961Z  INFO 10584 --- [GestCantineADA] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-05T17:43:07.969Z  INFO 10584 --- [GestCantineADA] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-05T17:43:11.294Z  INFO 5428 --- [GestCantineADA] [restartedMain] c.d.g.GestCantineAdaApplication          : Starting GestCantineAdaApplication using Java 22.0.1 with PID 5428 (C:\Users\angam\Desktop\Atos\GestCantineADA\target\classes started by angam in C:\Users\angam\Desktop\Atos\GestCantineADA)
+2024-09-05T17:43:11.298Z  INFO 5428 --- [GestCantineADA] [restartedMain] c.d.g.GestCantineAdaApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-09-05T17:43:11.358Z  INFO 5428 --- [GestCantineADA] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-05T17:43:11.358Z  INFO 5428 --- [GestCantineADA] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-05T17:43:12.043Z  INFO 5428 --- [GestCantineADA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-05T17:43:12.101Z  INFO 5428 --- [GestCantineADA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2024-09-05T17:43:12.598Z  INFO 5428 --- [GestCantineADA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-05T17:43:12.610Z  INFO 5428 --- [GestCantineADA] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-05T17:43:12.610Z  INFO 5428 --- [GestCantineADA] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-05T17:43:12.656Z  INFO 5428 --- [GestCantineADA] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-05T17:43:12.657Z  INFO 5428 --- [GestCantineADA] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1298 ms
+2024-09-05T17:43:12.806Z  INFO 5428 --- [GestCantineADA] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-05T17:43:12.854Z  INFO 5428 --- [GestCantineADA] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-05T17:43:12.884Z  INFO 5428 --- [GestCantineADA] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-05T17:43:13.182Z  INFO 5428 --- [GestCantineADA] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-05T17:43:13.207Z  INFO 5428 --- [GestCantineADA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-05T17:43:13.519Z  INFO 5428 --- [GestCantineADA] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3239a413
+2024-09-05T17:43:13.520Z  INFO 5428 --- [GestCantineADA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-05T17:43:13.567Z  WARN 5428 --- [GestCantineADA] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-05T17:43:14.408Z  INFO 5428 --- [GestCantineADA] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-05T17:43:14.466Z  INFO 5428 --- [GestCantineADA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-05T17:43:14.747Z  WARN 5428 --- [GestCantineADA] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-05T17:43:15.144Z  INFO 5428 --- [GestCantineADA] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-05T17:43:15.185Z  INFO 5428 --- [GestCantineADA] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-05T17:43:15.193Z  INFO 5428 --- [GestCantineADA] [restartedMain] c.d.g.GestCantineAdaApplication          : Started GestCantineAdaApplication in 4.435 seconds (process running for 5.632)
+2024-09-05T17:44:44.025Z  INFO 5428 --- [GestCantineADA] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-05T17:44:44.026Z  INFO 5428 --- [GestCantineADA] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-05T17:44:44.028Z  INFO 5428 --- [GestCantineADA] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

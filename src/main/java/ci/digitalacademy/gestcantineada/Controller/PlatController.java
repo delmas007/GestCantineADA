@@ -59,6 +59,9 @@ public class PlatController {
                     break;
                 }
             }
+            if (platService.findOne(id).isPresent()){
+                platService.delete(id);
+            }
         }
         platService.delete(id);
         return "redirect:/plats";
