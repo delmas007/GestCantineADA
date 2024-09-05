@@ -4,7 +4,6 @@ import ci.digitalacademy.gestcantineada.service.MenuService;
 import ci.digitalacademy.gestcantineada.service.PlatService;
 import ci.digitalacademy.gestcantineada.service.dtos.MenuDto;
 import ci.digitalacademy.gestcantineada.service.dtos.PlatDto;
-import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -29,7 +28,7 @@ public class MenuController {
     @GetMapping
     public String showMenuPage(Model model){
         model.addAttribute("menus", menuService.getAll());
-        return "menu/menus";
+        return "menu/list";
     }
 
     @GetMapping("/add")

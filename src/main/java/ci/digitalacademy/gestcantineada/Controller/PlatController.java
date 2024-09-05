@@ -4,7 +4,6 @@ import ci.digitalacademy.gestcantineada.service.MenuService;
 import ci.digitalacademy.gestcantineada.service.PlatService;
 import ci.digitalacademy.gestcantineada.service.dtos.MenuDto;
 import ci.digitalacademy.gestcantineada.service.dtos.PlatDto;
-import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,9 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.time.Instant;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -29,7 +26,7 @@ public class PlatController {
     @GetMapping
     public String showPlatPage( Model model){
         model.addAttribute("plats", platService.getAll());
-        return "plat/plats";
+        return "plat/list";
     }
 
     @GetMapping("/add")
